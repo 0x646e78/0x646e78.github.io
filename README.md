@@ -1,2 +1,3 @@
 # 0x646e78.github.io
-DNX Github Site
+
+DNX github pages blog, using jekyl
