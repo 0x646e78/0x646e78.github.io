@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "tmpnote bash_alias"
+title:  "Bash alias: tmpnote"
 date:   2019-07-04 23:44:39 +1000
 categories: jekyll update
 ---
 
-Added this to my `.bash_alias` to pop into a scratch space in vim.
+Added this to my *.bash_alias* to pop into a scratch space in vim.
 
-    alias tmpnote="vim -c 'startinsert' $(mktemp)"
+```
+alias tmpnote="vim -c 'startinsert' $(mktemp)"
+```
 
 so now I can just `tmpnote` and then _q!_ once I'm done.
 
