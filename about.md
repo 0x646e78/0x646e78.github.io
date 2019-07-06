@@ -6,5 +6,5 @@ permalink: /about/
 
 I'm dnx, here with random posts relating to infosec, programming, and linux.
 
-[github](https://github.com/0x646e78)
-[docker hub](https://hub.docker.com/u/ectoplasm)
+ - [github](https://github.com/0x646e78)
+ - [docker hub](https://hub.docker.com/u/ectoplasm)
