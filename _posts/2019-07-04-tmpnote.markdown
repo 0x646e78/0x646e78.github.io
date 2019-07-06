@@ -7,9 +7,12 @@ categories: jekyll update
 
 Added this to my *.bash_alias* to pop into a scratch space in vim.
 
-```
+{% highlight bash %}
+{% raw %}
 alias tmpnote="vim -c 'startinsert' $(mktemp)"
-```
+{% endraw %}
+{% endhighlight %}
+
 
 so now I can just `tmpnote` and then _q!_ once I'm done.
 
