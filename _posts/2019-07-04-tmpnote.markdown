@@ -5,15 +5,12 @@ date:   2019-07-04 23:44:39 +1000
 categories: jekyll update
 ---
 
-Added this to my *.bash_alias* to pop into a scratch space in vim.
+I revently added the following alisa to my **._bash_alias** file. Now if I want a temporary file to jot down some notes or dump some text, I can now just run `tmpnote` and then _q!_ once I'm done.
 
 {% highlight bash %}
 {% raw %}
 alias tmpnote="vim -c 'startinsert' $(mktemp)"
 {% endraw %}
 {% endhighlight %}
-
-
-so now I can just `tmpnote` and then _q!_ once I'm done.
 
 It's been handy for random note taking when I don't want to cloud sync anything or bust open a gui.
