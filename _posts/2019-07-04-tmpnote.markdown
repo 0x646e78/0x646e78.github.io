@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2019-05-24 15:44:39 +1000
+categories: jekyll update
+---
+
+Added this to my `.bash_alias` to pop into a scratch space in vim.
+
+{% highlight bash %}
+    alias tmpnote="vim -c 'startinsert' $(mktemp)"
+{% endhighlight %}
+
+so now I can just `tmpnote` and then _q!_ once I'm done.
+
+It's been handy for random note taking when I don't want to cloud sync anything or bust open a gui.
