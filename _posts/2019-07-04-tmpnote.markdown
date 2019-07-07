@@ -5,7 +5,7 @@ date:   2019-07-04 23:44:39 +1000
 categories: jekyll update
 ---
 
-I revently added the following alisa to my *.bash_aliases* file. Now if I want a temporary file to jot down some notes or dump some text, I can now just run `tmpnote` and then *:q!* once I'm done.
+I recently added the following alisa to my *.bash_aliases* file. Now if I want a temporary file to jot down some notes or dump some text, I just run `tmpnote` and then *:q!* once I'm done.
 
 {% highlight bash %}
 {% raw %}
