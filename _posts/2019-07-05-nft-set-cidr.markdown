@@ -37,7 +37,7 @@ table inet filter {
   chain base_checks {
     ct state {established, related} accept
     ct state invalid drop
-    ip saddr @uptimerobot_ips accept
+    ip saddr @uptimerobot accept
   }
   chain input {
   type filter hook input priority 0; policy drop;
