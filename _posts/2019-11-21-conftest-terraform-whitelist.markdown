@@ -90,7 +90,7 @@ make apply
 
 
 Now when a build is run, conftest checks the terraform plan against it's
-policy and if a resource has been defined which isn't in the defined
+policy and if a resource has been defined which isn't in the 
 whitelist, the build will fail.
 
 
