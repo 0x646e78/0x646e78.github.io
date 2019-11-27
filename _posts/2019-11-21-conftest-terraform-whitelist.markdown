@@ -85,7 +85,7 @@ _in your build steps_
 make tf-plan tf-conftest
 
 #Release to prod
-make apply
+make tf-apply
 ```
 
 
