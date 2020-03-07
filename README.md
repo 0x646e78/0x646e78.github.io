@@ -1,3 +1,3 @@
-# 0x646e78.github.io
+# ghostinashell.com
 
 DNX github pages blog, using jekyl
