@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NFtables on Debian 10 with Docker"
+title:  "nftables on Debian 10 with Docker"
 date:   2020-03-07 20:10:00 +1000
 categories: jekyll update
 ---
@@ -10,7 +10,9 @@ I run a Debian 10 system with no iptables and docker-compose. Dumping some notes
 Installation
 ---
 
-   apt-get install nftables
+```
+apt-get install nftables
+```
 
 To blacklist the iptables module, create `/etc/modprobe.d/noiptables.conf` with the following:
 
@@ -49,7 +51,7 @@ ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 ```
 systemctl daemon-reload
 systemctl restart docker
-
+```
 
 fuck you docker....
 
@@ -79,7 +81,7 @@ ln -s /sbin/iptables-nft /local/sbin/iptables
 nftable rules
 ---
 
-A failry simple config that works for me so far.
+A fairly simple config that works for me so far.
 
 ```
 #!/usr/sbin/nft -f
