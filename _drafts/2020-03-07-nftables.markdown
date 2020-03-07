@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "NFtables on Debian 10 with Docker"
+date:   2020-03-07 20:10:00 +1000
+categories: jekyll update
+---
+
+I run a Debian 10 system with no iptables. Dumping some notes here as it can be a real pain.
+
+Installation
+---
+
+   apt-get install nftables
+
+Blacklist the iptables module, create `/etc/modprobe.d/noiptables.conf` with the following:
+
+```
+install ip_tables /bin/false
+install ip6_tables /bin/false
+```
+
+Start and enable the service:
+
+```
+systemctl enable nftables.service
+systemctl start nftables.service
+```
+
+Docker config
+---
+
+In `/etc/docker/daemon.json`:
+
+```
+{
+  "iptables": false
+}
+```
+
+
+
