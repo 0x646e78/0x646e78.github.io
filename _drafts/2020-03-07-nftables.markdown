@@ -1,0 +1,155 @@
+---
+layout: post
+title:  "NFtables on Debian 10 with Docker"
+date:   2020-03-07 20:10:00 +1000
+categories: jekyll update
+---
+
+I run a Debian 10 system with no iptables and docker-compose. Dumping some notes here as it can be a real pain.
+
+Installation
+---
+
+   apt-get install nftables
+
+To blacklist the iptables module, create `/etc/modprobe.d/noiptables.conf` with the following:
+
+```
+install ip_tables /bin/false
+install ip6_tables /bin/false
+```
+
+Start and enable the service:
+
+```
+systemctl enable nftables.service
+systemctl start nftables.service
+```
+
+
+Docker config
+---
+
+In `/etc/docker/daemon.json`:
+
+```
+{
+  "iptables": false
+}
+```
+
+In `/etc/systemd/system/docker.service.d/override.conf`:
+
+```
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock --fixed-cidr=172.17.0.0/16
+```
+
+```
+systemctl daemon-reload
+systemctl restart docker
+
+
+fuck you docker....
+
+```
+# apt-get remove iptables
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  aufs-dkms aufs-tools cgroupfs-mount dkms libltdl7 linux-headers-amd64
+Use 'apt autoremove' to remove them.
+The following packages will be REMOVED:
+  docker-ce iptables
+0 upgraded, 0 newly installed, 2 to remove and 5 not upgraded.
+After this operation, 112 MB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+```
+
+and so
+
+```
+ln -s /sbin/iptables-nft /local/sbin/iptables
+```
+
+
+nftable rules
+---
+
+A failry simple config that works for me so far.
+
+```
+#!/usr/sbin/nft -f
+
+#whitelist IPs
+define home = xxx.xxx.xxx.xxx
+define work = xxx.xxx.xxx.xxx
+#internal IPs
+define docker_ipv4 = 172.17.0.0/16
+
+flush ruleset
+
+table inet filter {
+  set whitelist_ips {
+    type ipv4_addr
+    flags constant, interval
+    elements = { $home, $work }
+  }
+  chain base_checks {
+    ct state {established, related} accept
+    ct state invalid drop
+  }
+  chain input {
+    type filter hook input priority 0; policy drop;
+    jump base_checks
+    iifname lo accept
+    ip saddr $docker_ipv4 accept
+    ip saddr != @whitelist_ips drop
+    ip protocol icmp accept
+    tcp dport ssh accept
+    tcp dport https accept
+    drop
+  }
+  chain forward {
+    type filter hook forward priority 0; policy drop;
+    ct state {established,related} accept
+    ip saddr $docker_ipv4 oif eth0 accept
+    ip saddr $docker_ipv4 oifname "br-*" accept
+  }
+  chain output {
+    type filter hook output priority 0; policy accept;
+  }
+}
+table ip nat {
+  chain prerouting {
+    type nat hook prerouting priority 0;
+  }
+  chain postrouting {
+    type nat hook postrouting priority 100;
+    ip saddr $docker_ipv4 oif eth0 masquerade
+  }
+}
+```
+
+Load up the new rules with `systemctl reload nftables`
+
+
+Logging
+---
+
+Service logs can be viewed from `journalctl --unit=nftables.service`
+
+Logging of rules can be set up such as:
+
+```
+ip saddr <someaddress> log prefix "Some Prefix: " accept
+```
+
+
+Reference Material
+---
+
+[nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
