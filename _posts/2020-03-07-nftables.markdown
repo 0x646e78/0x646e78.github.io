@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "nftables on Debian 10 with Docker"
-date:   2020-03-07 20:10:00 +1000
-categories: jekyll update
+date:   2020-03-08 10:10:00 +1000
+categories: linux nftables
 ---
 
 I run a Debian 10 system with no iptables, and some multi-container services via docker-compose. 
@@ -91,6 +91,8 @@ nftables rules
 ---
 
 A fairly simple config that works for me so far.
+
+`/etc/nftables.conf`
 
 ```
 #!/usr/sbin/nft -f
