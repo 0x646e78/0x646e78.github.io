@@ -2,7 +2,7 @@
 layout: post
 title:  "Nftables set with CIDR"
 date:   2019-07-05 18:10:00 +1000
-categories: jekyll update
+categories: linux nftables
 ---
 
 A few weeks back I decided to try running a system with nftables as it's firewall, with no iptables, and with docker. This proved successful, but only after hunting through various blogs, man pages and wikis to put it together.  The complete result of this I will publish at another time, but one of the issues I had, which I've just now come back to and solved was how to include CIDR notation into a named set.

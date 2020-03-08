@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Conftest to enforce Terraform allowed resources"
 date:   2019-11-21 20:10:00 +1000
-categories: jekyll update
+categories: security
 ---
 
 I've just been playing with [conftest](https://github.com/instrumenta/conftest)
