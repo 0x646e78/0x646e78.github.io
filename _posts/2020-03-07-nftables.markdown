@@ -5,10 +5,13 @@ date:   2020-03-07 20:10:00 +1000
 categories: jekyll update
 ---
 
-I run a Debian 10 system with no iptables and docker-compose. Dumping some notes here as it can be a real pain.
+I run a Debian 10 system with no iptables, and some multi-container services via docker-compose. 
+Dumping some notes here as it can be a real pain.
 
 Installation
 ---
+
+Install the userspace tools (the kernel modules are already baked in).
 
 ```
 apt-get install nftables
@@ -40,6 +43,8 @@ In `/etc/docker/daemon.json`:
 }
 ```
 
+Previously the flag --iptables=false was used as a systemd override, but this is no longer the case.
+
 In `/etc/systemd/system/docker.service.d/override.conf`:
 
 ```
@@ -48,12 +53,16 @@ ExecStart=
 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock --fixed-cidr=172.17.0.0/16
 ```
 
+This sets a static range `172.17.0.0/16` for the docker network. If you haven't used systemd overrides before, the blank `ExecStart=` is needed to clear the value before applying a new one.
+
+Then we restart docker:
+
 ```
 systemctl daemon-reload
 systemctl restart docker
 ```
 
-fuck you docker....
+fuck you docker.... (docker-ce will always install iptables userspace tools as a dependency)
 
 ```
 # apt-get remove iptables
@@ -78,7 +87,7 @@ ln -s /sbin/iptables-nft /local/sbin/iptables
 ```
 
 
-nftable rules
+nftables rules
 ---
 
 A fairly simple config that works for me so far.
@@ -136,13 +145,15 @@ table ip nat {
 }
 ```
 
+This allows forwarding between docker interfaces and to eth0, NAT to the container network, and a filtered input.
+
 Load up the new rules with `systemctl reload nftables`
 
 
 Logging
 ---
 
-Service logs can be viewed from `journalctl --unit=nftables.service`
+nftables service logs can be viewed from `journalctl --unit=nftables.service`
 
 Logging of rules can be set up such as:
 
@@ -153,5 +164,7 @@ ip saddr <someaddress> log prefix "Some Prefix: " accept
 
 Reference Material
 ---
+
+I've found the below pages to be very helpful. I have found that a lot of things do change and it can be hard to find current material, and often not trivial to find an answer to various questions.
 
 [nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
