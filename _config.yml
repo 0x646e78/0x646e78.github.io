@@ -18,7 +18,7 @@ title: ritual de exploración
 description: >- # this means to ignore newlines until "baseurl:"
   Exploring Open Source, Linux, Security and random projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.ghostinashell.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  "0x646e78"
 
