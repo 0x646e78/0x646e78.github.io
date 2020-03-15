@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ansible Vault key retrieval from Bitwarden'
+title:  'Ansible Vault key retrieval from Bitwarden'
 date:   2020-03-08 10:10:00 +1000
 categories: ansible
 ---
