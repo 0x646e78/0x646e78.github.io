@@ -33,9 +33,9 @@ def get_vault_key(search='ansible vault key'):
 print(get_vault_key())
 ```
 
-`chmod u+x vault-pass.py`
+It needs to be executable, so `chmod u+x vault-pass.py`
 
-And in invokes `tasks.py`:
+Deployment step in invokes `tasks.py`:
 ```
 from invoke import task
 
