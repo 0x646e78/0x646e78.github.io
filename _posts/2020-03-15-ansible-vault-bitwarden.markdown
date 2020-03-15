@@ -17,7 +17,7 @@ Once that is working and I found that I could retrieve a password, I configured 
 You can't just print the key in the command arguments to ansible-playbook. The available options are to provide a password file (`--vault-password-file`), or to have ansible ask for the key to be typed (`--ask-vault-pass`).
 One could probably pipe the key in, but that feels pretty yucky to me, but not as yuck as writing cleartext creds to a file on disk. Fortunately `--vault-password-file` will also accept an executable that prints the key to stdout.
 
-## Steps
+### Steps
 
 `vault-pass.py`:
 ```
