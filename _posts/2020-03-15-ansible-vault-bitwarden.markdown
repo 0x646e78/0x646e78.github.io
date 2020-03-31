@@ -5,7 +5,7 @@ date:   2020-03-08 10:10:00 +1000
 categories: ansible
 ---
 
-I use [Bitwarden](https://bitwarden.com/) as my password manager. It is really good and I highly recommend it. I also use Ansible a whole lot, and make heavy use of [Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html).
+I use [Bitwarden](https://bitwarden.com/) as my password manager, and I highly recommend it. I also use Ansible a whole lot, and make heavy use of [Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html).
 
 I've recently started using [Invoke](http://www.pyinvoke.org/) as my orchestrator after [crgm](https://crgm.net/) suggested it, which has got me thinking more about streamlining my processes.
 Today I hooked bitwarden into the mix. This is a first pass, but I'm happy with it.
