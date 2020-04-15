@@ -35,7 +35,7 @@ so when can use:
 Going back to the original multi-grep we can do the following, and improve upon by also matching the Name field:
 
 ```
-$ kubectl describe nodes | grep -E '(^Name|aints|abels)'
+$ kubectl describe nodes | egrep '(^Name|aints|abels)'
 Name:               k8smaster
 Labels:             beta.kubernetes.io/arch=amd64
 Taints:             <none>
