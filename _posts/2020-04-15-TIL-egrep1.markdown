@@ -1,0 +1,45 @@
+---
+layout: post
+title:  'TIL: grep mutliple patterns'
+date:   2020-04-15 18:15:00 +1000
+categories: linux bash grep til
+---
+
+We all have habits, and getting things done means that often we don't look past them, or we're not exposed to different ways of achieving something. Often I'll sit back and think "actually let's find another way of doing this", or I see a cool trick and want to incororate it into my practice. And then I don't pass it on, or don't practice it, forget about it.
+
+And so, introducing the TIL (Today I Learned) series, where I'll try to post a quick thing whether it's simple, or 'everbody' already knows it etc.
+
+First up, we have multiple matches in a single grep.
+
+## Matching multiple patterns using egrep
+
+I had just done one of these:
+
+```
+$ kubectl describe nodes|grep Taints
+Taints:             <none>
+Taints:             <none>
+$ kubectl describe nodes|grep Labels
+Labels:             beta.kubernetes.io/arch=amd64
+Labels:             beta.kubernetes.io/arch=amd64
+```
+
+I can get the task done using this, and probably in not many more keystrokes, but what if I want these in a one-liner?
+
+I checked `man grep` and didn't see anything obvious, except of course regular expresions, supported when passing `-E` to grep, or otherwise just using `egrep`
+
+so when can use:
+
+`egrep '(pattern1|pattern2|patternN)'
+
+Going back to the original multi-grep we can do the following, and improve upon by also matching the Name field:
+
+```
+$ kubectl describe nodes | grep -E '(^Name|aints|abels)'
+Name:               k8smaster
+Labels:             beta.kubernetes.io/arch=amd64
+Taints:             <none>
+Name:               k8sworker1
+Labels:             beta.kubernetes.io/arch=amd64
+Taints:             <none>`
+```
