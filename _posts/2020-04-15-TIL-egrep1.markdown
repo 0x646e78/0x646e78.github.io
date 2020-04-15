@@ -5,7 +5,7 @@ date:   2020-04-15 18:15:00 +1000
 categories: linux bash grep til
 ---
 
-We all have habits, and getting things done means that often we don't look past them, or we're not exposed to different ways of achieving something. Often I'll sit back and think "actually let's find another way of doing this", or I see a cool trick and want to incororate it into my practice. And then I don't pass it on, or don't practice it, forget about it.
+We all have habits, and getting things done means that often we don't look past them, or we're not exposed to different ways of achieving something. Often I'll sit back and think "actually let's find another way of doing this", or I see a cool trick and want to incororate it into my practice. Too often I don't pass it on, or don't practice it.
 
 And so, introducing the TIL (Today I Learned) series, where I'll try to post a quick thing whether it's simple, or 'everbody' already knows it etc.
 
@@ -30,7 +30,7 @@ I checked `man grep` and didn't see anything obvious, except of course regular e
 
 so when can use:
 
-`egrep '(pattern1|pattern2|patternN)'
+`egrep '(pattern1|pattern2|patternN)'`
 
 Going back to the original multi-grep we can do the following, and improve upon by also matching the Name field:
 
