@@ -167,6 +167,4 @@ ip saddr <someaddress> log prefix "Some Prefix: " accept
 Reference Material
 ---
 
-I've found the below pages to be very helpful. I have found that a lot of things do change and it can be hard to find current material, and often not trivial to find an answer to various questions.
-
 [nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
