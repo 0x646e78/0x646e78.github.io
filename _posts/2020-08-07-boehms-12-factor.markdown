@@ -11,4 +11,4 @@ blah blah
 
 blah
 
-![12 Factor to Boehm](images/2020-08-07-boehms-12-factor-1.svg)
+![12 Factor to Boehm]({{ BASE_PATH }}/assets/article_images/2020-08-07-boehms-12-factor-1.svg)
