@@ -1,0 +1,8 @@
+---
+layout: post
+title:  'work damnit'
+date:   2020-08-07 00:21:00 +1000
+categories: programming
+---
+
+Trying to fix this
