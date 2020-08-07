@@ -1,0 +1,57 @@
+@startuml
+skinparam nodesep 30
+skinparam ranksep 150
+left to right direction
+
+package "Twelve-Factor App methodology" {
+  usecase "Codebase" as 1
+  usecase "Dependencies" as 2
+  usecase "Config" as 3
+  usecase "Backing services" as 4
+  usecase "Build, Release, Run" as 5
+  usecase "Processes" as 6
+  usecase "Port binding" as 7
+  usecase "Concurrency" as 8
+  usecase "Disposability" as 9
+  usecase "Dev/prod parity" as 10
+  usecase "Logs" as 11
+  usecase "Admin processes" as 12
+}
+
+package "Boehm's Quality Factors" {
+  usecase "Portability" as port
+  usecase "Reliability" as reli
+  usecase "Efficiency" as effi
+  usecase "Usability" as usab 
+  usecase "Testability" as test 
+  usecase "Understandability" as unde
+  usecase "Modifiability" as modi
+}
+
+1 --> test
+1 --> modi
+2 --> reli
+2 --> unde
+2 --> modi
+3 --> test
+3 --> modi
+4 --> modi
+4 --> port
+5 --> port
+5 --> test
+5 --> modi
+6 --> port
+8 --> port
+8 --> effi
+9 --> reli
+9 --> port
+9 --> effi
+10 --> port
+10 --> test
+10 --> reli
+10 --> modi
+11 --> port
+11 --> test
+12 --> reli
+
+@enduml
