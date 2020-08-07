@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.ghostinashell.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  "0x646e78"
+disqus:
+  shortname: ghostinashellblog
 
 # Build settings
 markdown: kramdown
