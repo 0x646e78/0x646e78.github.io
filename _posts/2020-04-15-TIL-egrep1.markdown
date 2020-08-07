@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  'TIL: grep mutliple patterns'
+title:  'grep mutliple patterns'
 date:   2020-04-15 18:15:00 +1000
 categories: linux bash grep til
 ---
 
 We all have habits, and getting things done means that often we don't look past them, or we're not exposed to different ways of achieving something. Often I'll sit back and think "actually let's find another way of doing this", or I see a cool trick and want to incororate it into my practice. Too often I don't pass it on, or don't practice it.
 
-And so, introducing the TIL (Today I Learned) series, where I'll try to post a quick thing whether it's simple, or 'everbody' already knows it etc.
-
-First up, we have multiple matches in a single grep.
+And so it goes with `grep` for me, where I've never really looking into multiple matches. So I spent a small chunk of time to work it out.
 
 ## Matching multiple patterns using egrep
 
@@ -43,3 +41,5 @@ Name:               k8sworker1
 Labels:             beta.kubernetes.io/arch=amd64
 Taints:             <none>`
 ```
+
+**note** I realised after this that it's a bad example in practice as thekubectl command could be returning multiple rows of labels if more than one is present, and we'll only match one. The method of multiple greps is still sound however.
