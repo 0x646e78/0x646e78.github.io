@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "nftables on Debian 10 with Docker"
+title:  "nftables on Debian 10 with Docker and no iptables"
 date:   2020-03-07 10:10:00 +1000
 categories: linux nftables
 ---
