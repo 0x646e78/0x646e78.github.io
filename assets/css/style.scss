@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "";
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+
 .img-center
 {
     margin: 0 auto;
