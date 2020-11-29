@@ -31,6 +31,9 @@ google_analytics: UA-58697081-2
 show_excerpts: true
 plugins:
   - jekyll-feed
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
