@@ -13,4 +13,8 @@
     width: 400px;
     height: auto;
 }
-
+img + em {
+//image captions
+    display: block;
+    text-align: center;
+}
