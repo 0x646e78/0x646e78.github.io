@@ -11,7 +11,7 @@ I've recently serviced a couple of these four track cassette recorders, here I o
 The images here are mostly from the restoration of a 100V machine I picked up on eBay. When I got it
  it was dead and extremely dirty inside and out.
 
-![Dead & Dirty MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg)
+![Dead & Dirty MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg){: .img-resize .img-center }
 *Starting Point: Dead & Dirty MT4X*
 
 More soon...
