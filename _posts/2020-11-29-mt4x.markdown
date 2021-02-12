@@ -2,7 +2,7 @@
 layout: post
 title:  "Yamaha MT4X Multitrack Cassette Recorder: Disassembly & Service"
 date:   2020-11-29 12:00:00 +1000
-categories: electronics cassette 4track audio
+categories: electronics cassettes 4track audio
 ---
 
 I've recently serviced a couple of these four track cassette recorders.
@@ -15,7 +15,7 @@ The images used are mostly from the restoration of a 100V machine I picked up on
 ![Dead & Dirty MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg){: .img-resize .img-center }
 *Starting Point: Dead & Dirty MT4X*
 
-Before you start unscrewing anything, you'll want to make sure you've got a few things ready. I make sure I've got a clean work area and the following available.
+Before you start unscrewing anything, you'll want to make sure you've got a few things ready. I make sure I have the following available.
 
  - 2x Phillips Screwdrivers. A little one, and a bigger one.
  - Tweezers. I prefer to have both a bent and straight set on hand, but one will do.
@@ -42,9 +42,17 @@ Before you start unscrewing anything, you'll want to make sure you've got a few 
 ![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1c_screws.JPG){: .img-resize .img-center }
 *Keeping fixings tidy saves a headache later on*
 
+I also want to note the values of fuses, servo and belts which are from my observations and measurements. I have been unable to find any values for these online and am yet to et hold of a service manual. I would greatly appreciate comments of official values, or your observed values if you are taking a unit apart.
+
+- 1x 70mm x 1mm square belt
+- 1x 115mm x 4.7mm flat belt
+- 1x Sankyo SHU2L 12v motor
+- 1x 240v 500mA 20mm fast blow fuse (100v model) 
+- 1x 240v 120mA 20mm fast blow fuse (240v model)
+
 Now that we have a space to work and appropriate tools for the job, let's get into the fun and pull this thing apart.
 
-The first thing you want to do, which I've neglected to photograph, is remove all of the knobs. All knobs, and all mixer sliders will pull off. Some might be a bit sticky but just pull straight up and it will come off. Don't try to remove the push buttons, they're affixed from teh inside.
+The first thing you want to do, which I've neglected to photograph, is remove all of the knobs. All knobs, and all mixer sliders will pull off. Some might be a bit sticky but just pull straight up and it will come off. Don't try to remove the push buttons, they're affixed from the inside.
 
 Once the knobs are removed, flip the unit over. Be careful of the exposed knobs, you don't want to break these (or scratch your desk). I find as long as you lay it down gently you'll be fine.
 
@@ -84,5 +92,47 @@ With the unit top and base seperated, set the top aside somewhere safe, and we w
 ![mt4x heads]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5b_heads.JPG){: .img-resize .img-center }
 *A view of the mt4x heads*
 
-Check back soon for a contnuation of this article.....
+With a small brush and tweezers remove any dust and fluff from the cassette mechanism, taking care not to touch the heads at this stage. Once you've done this, remove the three remaining screws holding the mechanism in place.
 
+![mt4x mech]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5c_mechanism.JPG){: .img-resize .img-center }
+*Remove the three corner screws from the cassette machanism*
+
+You can the gently flip the mechanism over to the right, resting it upon the shielding.
+
+From here we have access to the fuse. If it needs replacing, do so now. 
+
+![mt4x fuse 100v]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5d_fuse_100v.JPG){: .img-resize .img-center }
+*Fuse in a 100v model*
+
+![mt4x fuse 240v]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5d_fuse_240v.JPG){: .img-resize .img-center }
+*Fuse in a 240v model*
+
+Once again, clean out the exposed area, taking care of any electronic parts.
+
+Now, there are four small screws holding the cassette mech cover in place. Remove these, carefully setting them aside and ensuring you don't lose the two plastic latche parts. With this removed you will be able to remove the belts. If they have deteriorated you may need to clean their path in the wheels with a little warm soapy water on a q-tip.
+
+To oil the servo we need to remove it. There are three screws for this, and once it is out you'll want to pull the plastic belt wheel off. Give this a clean, and then oil the motor. To oil the motor use a toothpick or similar device rather than trying to apply direct from an oil dispenser. Give a couple of drops into the shaft and then gently rotate it a couple of times. Clean any residue from the exposed shaft before pushing the belt wheel back on, leaving a slight gap between it and the motor body.
+
+Refix the motor, and then replace the belts (ideally with new ones). Refix the mech cover, being careful not to break the plastic parts.
+
+
+![mt4x mech back]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7_mech1.JPG){: .img-resize .img-center }
+*Back of cassette mechanism*
+
+![mt4x mech screws1]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7_mech2.JPG){: .img-resize .img-center }
+
+![mt4x mech screws2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7_mech3.JPG){: .img-resize .img-center }
+*Remove these small screws to expose the belts*
+
+
+![mt4x belts]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7a_belts.JPG){: .img-resize .img-center }
+*The mt4x belts removed*
+
+![mt4x motor screws]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7a_motor1.JPG){: .img-resize .img-center }
+*Remove these screws to remove the motor*
+
+![mt4x motor oil]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7c_motor3.JPG){: .img-resize .img-center }
+*Oil the shaft*
+
+![mt4x motor wheel]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7d_motor4.JPG){: .img-resize .img-center }
+*Leave a slight gap when refitting*
