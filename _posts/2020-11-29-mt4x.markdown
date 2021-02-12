@@ -2,7 +2,7 @@
 layout: post
 title:  "Yamaha MT4X Multitrack Cassette Recorder: Disassembly & Service"
 date:   2020-11-29 12:00:00 +1000
-categories: electronics cassettes 4track audio
+categories: electronics cassette 4track audio
 ---
 
 I've recently serviced a couple of these four track cassette recorders.
