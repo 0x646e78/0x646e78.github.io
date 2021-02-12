@@ -136,3 +136,18 @@ Refix the motor, and then replace the belts (ideally with new ones). Refix the m
 
 ![mt4x motor wheel]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7d_motor4.JPG){: .img-resize .img-center }
 *Leave a slight gap when refitting*
+
+Refix the cassette machnism in place, and now we will clean the tape heads. Pour a little isopropyl alcohol into a canister, dipping a cotton swab and then using this to gently wide across the heads. If any dirt is visible on the swab tip, flip it over and use the other end until it is clean. I also clean the steel mechanical parts with iso, and the pinch rollers with a little warm, slightly soapy water.
+
+Now just make sure you've cleaned out al the dust and fluff from the base before we start on the top section.
+
+![mt4x iso]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7e_iso.JPG){: .img-resize .img-center }
+*Isopropyl and cotton swab for head cleaning*
+
+![mt4x mech clean]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7h_mech.JPG){: .img-resize .img-center }
+*Cleaned cassette mechanism and heads*
+
+![mt4x brush]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7z_brush.JPG){: .img-resize .img-center }
+*A cheap paintbrush is a great tool for cleaning*
+
+Coming soon.... cleaning the top section and putting it all back together.
