@@ -9,8 +9,10 @@ I've recently serviced a couple of these four track cassette recorders.
 Here I overview the process that I took and try to share info that I couldn't easily find online myself.
 
 The images used are mostly from the restoration of a 100V machine I picked up on eBay. When I got it
- it was dead and extremely dirty inside and out. I have added images from another machine in some places
+ it was dead and extremely dirty inside and out. I have added images from another (240v) machine in some places
  to show differences or where I missed photographing something originally.
+
+I have probably missed a couple of steps or don't always follow a best practice, so please leave a comment if you have anything to add.
 
 ![Dead & Dirty MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg){: .img-resize .img-center }
 *Starting Point: Dead & Dirty MT4X*
@@ -150,4 +152,93 @@ Now just make sure you've cleaned out al the dust and fluff from the base before
 ![mt4x brush]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_7z_brush.JPG){: .img-resize .img-center }
 *A cheap paintbrush is a great tool for cleaning*
 
-Coming soon.... cleaning the top section and putting it all back together.
+Set aside the base in a safe place, and pop the top section down in your work space, face down. Lift off the protective shield, but don't disconnect it. We're now going to remove all of the PCBs and empty out this section to give it all a good clean.
+
+![mt4x top]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_8_guts_top.JPG){: .img-resize .img-center }
+*Top section of the unit, ready to be worked on*
+
+There are plastic pins holding in the 1/4" input and RCA jacks. These are two on the inside, and four at the rear of the unit. For those on the rear, there are some you can get to from the inside with a small flathead screwdriver - use this to push them out a bit. From here, and for the rest, I use a plastic opening tool to gently pry these out. Be careful here not to break anything, and pull off the rear plate.
+
+![mt4x pins1]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_9_pins1.JPG){: .img-resize .img-center }
+*Push the rear plastic pins out a bit using a small screwdriver*
+
+![mt4x pins2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_9_pins2.JPG){: .img-resize .img-center }
+*Outer pin removal*
+
+![mt4x pins3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_9_pins3.JPG){: .img-resize .img-center }
+*Inner pin removal*
+
+![mt4x pins4]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_9b_pins4.JPG){: .img-resize .img-center }
+*One of the inner pins after removal*
+
+With the pins removed, pull this section out. It can be a little tricky, just work it until you find the right angle, and don't force it. Once you've got it loose, disconnect the two ribbon cables. To do this, pull up the plastic outer to loosen and then lift the ribbons straight up.
+
+![mt4x ribbons]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_10a.JPG){: .img-resize .img-center }
+*Loosen connectors and then lift ribbons straight out*
+
+There is now a series of screws to remove to get these PCBs out. As you do so, gently remove any cables which connect things. Generally these are self-evident as to where they go when reconnecting, but you can always mark connections with a marker as we've done earlier. Some screws may be covered by tape. Place all PCBs in a safe place, an antistatic mat is a good choice but I generally just use a wooden dining table.
+
+![mt4x pcb_main]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_10b.JPG){: .img-resize .img-center }
+
+![mt4x pcb2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_10c.JPG){: .img-resize .img-center }
+
+![mt4x pcb3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_10d.JPG){: .img-resize .img-center }
+*Three PCBs to remove, as shown here*
+
+Now we have an empty shell! There is card lining, leave it in. Pull out the button matrix. Give it all a brush out to remove any fluff etc.
+
+![mt4x empty_top]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_11_empty.JPG){: .img-resize .img-center }
+*Empty top shell*
+
+![mt4x buttons]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_11b.JPG){: .img-resize .img-center }
+*Button matrix*
+
+From here I take it to the bathroom and mix up a small amount of sugar soap with warm water. Using an old toothbrush and a cloth work your way around the unit. Don't run it under water or get excessive wetness in inside due to the card. Once it's all pretty clean run over it with a cloth and fresh clean water, then set aside to dry.
+
+![mt4x clean_top]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_11c_clean.JPG){: .img-resize .img-center }
+
+We now turn our attention to the circuit boards, with their switches and pots. My process is to first remove any large amounts of fluff etc by hand and tweezer. Then use an air can to blow off any loose dust. From here, I use a spray Electrical Clean and Lube with applicator nozzle to each pot and slider, one at a time. Spray, move through a full motion, repeat for each one. As you go through, you'll find from turning and applying spray that more grime is able to be picked up so remove this as you go.
+
+For the jacks I spray in some electronic cleaner (not lube) and gently insert a cotton swab to apply some friction to the contacts. Cotton swabs are probably not the best as they can leave cotton behind, but if you're careful you can avoid this.
+
+This can be fairly time consuming, just be slow and methodical about it. The results are worth it.
+
+![mt4x pcbclean1]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12a.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12c.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12d.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean4]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12i.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean5]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13a.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean6]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13b.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean7]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13c.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean8]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13d.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean9]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12k.JPG){: .img-resize .img-center }
+
+At this stage you will have clean boards, and a clean and dry shell. Now reverse the steps taken to remove everything to put it back together. If ribbon connector pins are a little bent, straighten the before slotting back in. When it comes to the plastic pins squeeze the ends together with some small pliers to insert back into their holes.
+
+![mt4x pin_attachment]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_14_pins.JPG){: .img-resize .img-center }
+*Squeeze pin ends to insert*
+
+Attach the base to the top, following the order of removal and any markings you made for connectors. When jooining the top and botton ensure no cables are pinched.
+
+Once it's all together, and before screwing the top and base together or replacing all the knobs, test the unit. Use a guitar, bass or whatever you have at hand with a 1/4" cable and record something to each channel. Then listen back, and rotate all knobs and move sliders. I use headphones. Some of the jacks I haven't tested at this time such as tape out, but they worked before so I'm fairly happy to test them in the studio later.
+
+
+![mt4x testing]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_y_testing.JPG){: .img-resize .img-center }
+*Testing the unit*
+
+Once you're happy with it, reattach the knobs and screw the unit together. If all goes well you'll have a shiny unit with much less noise and issues than before.
+
+![mt4x finished]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_z_finished.JPG){: .img-resize .img-center }
+*The clean, finished unit*
+
+I hope this has been helpful to someone out there. There are various items I haven't covered, which I hopefully well at a later date, such as demagnetising, motor speed adjustment and azumith adjustment, but these are often not necessary and a bit more advanced or require more expensive tools.
+
+I'd love to hear from others with part numbers, corrections and ideas in the comments.
