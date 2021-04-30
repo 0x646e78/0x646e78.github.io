@@ -205,21 +205,21 @@ This can be fairly time consuming, just be slow and methodical about it. The res
 
 ![mt4x pcbclean1]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12a.JPG){: .img-resize .img-center }
 
-![mt4x pcbclean2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12c.JPG){: .img-resize .img-center }
-
-![mt4x pcbclean3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12d.JPG){: .img-resize .img-center }
-
-![mt4x pcbclean4]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12i.JPG){: .img-resize .img-center }
-
-![mt4x pcbclean5]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13a.JPG){: .img-resize .img-center }
+![mt4x pcbclean7]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13c.JPG){: .img-resize .img-center }
 
 ![mt4x pcbclean6]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13b.JPG){: .img-resize .img-center }
 
-![mt4x pcbclean7]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13c.JPG){: .img-resize .img-center }
-
 ![mt4x pcbclean8]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13d.JPG){: .img-resize .img-center }
 
+![mt4x pcbclean4]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12i.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12c.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean5]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13a.JPG){: .img-resize .img-center }
+
 ![mt4x pcbclean9]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12k.JPG){: .img-resize .img-center }
+
+![mt4x pcbclean3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12d.JPG){: .img-resize .img-center }
 
 At this stage you will have clean boards, and a clean and dry shell. Now reverse the steps taken to remove everything to put it back together. If ribbon connector pins are a little bent, straighten the before slotting back in. When it comes to the plastic pins squeeze the ends together with some small pliers to insert back into their holes.
 
