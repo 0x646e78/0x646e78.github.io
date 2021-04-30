@@ -215,8 +215,6 @@ This can be fairly time consuming, just be slow and methodical about it. The res
 
 ![mt4x pcbclean2]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12c.JPG){: .img-resize .img-center }
 
-![mt4x pcbclean5]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_13a.JPG){: .img-resize .img-center }
-
 ![mt4x pcbclean9]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12k.JPG){: .img-resize .img-center }
 
 ![mt4x pcbclean3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12d.JPG){: .img-resize .img-center }
