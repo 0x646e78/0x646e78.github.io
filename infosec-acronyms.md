@@ -4,7 +4,7 @@ title: "InfoSec Acronyms"
 permalink: /acronyms/
 ---
 
-## "Cybersecurity Acronyms & Abbreviations"
+# Cybersecurity Acronyms & Abbreviations
 
 This list aims to capture globally used acronyms and abbreviations within the cybersecurity industry. I have generally not included vendor or location-specific abbreviations. For example NIST is included as it is widely relevant, but CES is not as it is used only by Tenable in their product.
 
@@ -13,7 +13,7 @@ In future I will update to link the entries to glossary explanations.
 To update or add an item please open a pull request on the repository.
 
 
-## **Acronyms & Abbreviations**
+## Acronyms & Abbreviations
 
 **2FA** - Two Factor Authentication; see also MFA
 
