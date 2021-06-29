@@ -1,12 +1,8 @@
 ---
-layout: page
-title:  "Cybersec Acronyms & Abbreviations"
-permalink: /about/
+layout: default 
+title: "Cybersecurity Acronyms & Abbreviations"
+permalink: /acronyms/
 ---
-
-# Cybersecurity Acronyms & Abbreviations
-
-## **Introduction**
 
 This list aims to capture globally used acronyms and abbreviations within the cybersecurity industry. I have generally not included vendor or location-specific abbreviations. For example NIST is included as it is widely relevant, but CES is not as it is used only by Tenable in their product.
 
