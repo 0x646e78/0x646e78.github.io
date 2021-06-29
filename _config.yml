@@ -16,7 +16,7 @@
 title: ritual de exploración
 #email: auraltension@riseup.net
 description: >- # this means to ignore newlines until "baseurl:"
-  InfoSec and random projects.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.ghostinashell.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
