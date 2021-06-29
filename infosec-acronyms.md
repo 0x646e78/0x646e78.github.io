@@ -8,7 +8,7 @@ permalink: /acronyms/
 
 This list aims to capture globally used acronyms and abbreviations within the cybersecurity industry.
 
-I have generally not included vendor or location-specific abbreviations. For example NIST is included as it is widely relevant, but CES is not as it is used only by Tenable in their product.
+I have generally not included vendor or location-specific abbreviations. For example NIST is included as it is widely relevant, but CES is not as it is used only by Tenable in their product. Some may have snuck in however.
 
 In future I will update to link the entries to glossary explanations.
 
