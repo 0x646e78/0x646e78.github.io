@@ -12,7 +12,7 @@ I have generally not included vendor or location-specific abbreviations. For exa
 
 In future I will update to link the entries to glossary explanations.
 
-To update or add an item please open a pull request on the repository.
+To update or add an item please open a pull request  or issue on the [repository](repo).
 
 
 ## Acronyms & Abbreviations List
@@ -35,9 +35,9 @@ To update or add an item please open a pull request on the repository.
 
 **ASLR** - Address Space Layout Randomisation
 
-**ASVS** - \(OWASP\) Application Security Verification Standard ****\(OWASP\)
+**ASVS** - \(OWASP\) Application Security Verification Standard
 
-**ATT&CK** - \(MITRE\) Adversarial Tactics, Techniques, and Common Knowledge \(MITRE\)
+**ATT&CK** - \(MITRE\) Adversarial Tactics, Techniques, and Common Knowledge
 
 **Authn** - Authentication
 
@@ -68,6 +68,8 @@ To update or add an item please open a pull request on the repository.
 **CCM** - Cloud Controls Matrix
 
 **CCSP** - Certified Cloud Security Professional \(ISC2\)
+
+**CDR** - Content Disarm & Reconstruction
 
 **CERT** - Computer Emergency Response Team
 
@@ -122,6 +124,8 @@ To update or add an item please open a pull request on the repository.
 **DAST** - Dynamic Application Security Testing
 
 **DDoS** - Distributed Denial of Service
+
+**DEP** - Data Execution Prevention
 
 **DES** - Data Encryption Standard
 
@@ -273,6 +277,8 @@ To update or add an item please open a pull request on the repository.
 
 **NVD** - National Vulnerability Database
 
+**NX** - No-Execute
+
 **OASIS** - Organisation for the Advancement of Structured Information Standards
 
 **OAuth** - Open Authorization
@@ -298,6 +304,10 @@ To update or add an item please open a pull request on the repository.
 **PASTA** - Process for Attack Simulation & Threat Analysis
 
 **PCI** - Payment Card Industry \(Also **PCI DSS** - Data Security Standard\)
+
+**PIC** - Position-independent Code
+
+**PIE** - Position-independent Executable
 
 **PGP** - Pretty Good Privacy. See also GPG
 
@@ -409,6 +419,8 @@ To update or add an item please open a pull request on the repository.
 
 **TLS** - Transport Layer Security
 
+**TPM** - Transport Platform Module
+
 **TPRM** - Third Party Risk Management
 
 **TTP** - Tactics, Techniques, and Procedures
@@ -441,3 +453,4 @@ To update or add an item please open a pull request on the repository.
 
 **XXE** - XML External Entity
 
+[repo]: https://github.com/0x646e78/0x646e78.github.io/blob/master/infosec-acronyms.md
