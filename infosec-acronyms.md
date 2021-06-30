@@ -12,7 +12,7 @@ I have generally not included vendor or location-specific abbreviations. For exa
 
 In future I will update to link the entries to glossary explanations.
 
-To update or add an item please open a pull request  or issue on the [repository](repo).
+To update or add an item please open a pull request  or issue on the [repository][repo].
 
 
 ## Acronyms & Abbreviations List
