@@ -191,6 +191,8 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **HSM** - Hardware Security Module
 
+**HSTS** - HTTP Strict Transfer Protocol
+
 **IAST** - Interactive Application Security Testing
 
 **IDAM** - Identity & Access Management
@@ -339,6 +341,8 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **RTR** - Rapid Threat Response
 
+**SABSA** - Sherwood Applied Business Security Architecture
+
 **SAML** - Security Assertion Markup Language
 
 **SANS** - SysAdmin, Audit, Network, and Security
@@ -419,6 +423,8 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **TLS** - Transport Layer Security
 
+**TOGAF** - The Open Group Architecture Framework
+
 **TPM** - Transport Platform Module
 
 **TPRM** - Third Party Risk Management
@@ -448,6 +454,8 @@ To update or add an item please open a pull request  or issue on the [repository
 **XACML** - eXtensible Access Control Markup Language
 
 **XDR** - eXtended Detection and Response
+
+**XFS** - Cross Frame Scripting
 
 **XSS** - Cross Site Scripting
 
