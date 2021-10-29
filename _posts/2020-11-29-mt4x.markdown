@@ -5,7 +5,7 @@ date:   2020-11-29 12:00:00 +1000
 categories: electronics cassette 4track audio
 ---
 
-I've recently serviced a couple of these four track cassette recorders.
+I've recently serviced a couple of Yamaha mt4x four track cassette recorders.
 Here I overview the process that I took and try to share info that I couldn't easily find online myself.
 
 The images used are mostly from the restoration of a 100V machine I picked up on eBay. When I got it
@@ -36,7 +36,7 @@ Before you start unscrewing anything, you'll want to make sure you've got a few 
  - A toothpick or similar for applying oil.
  - A cassette tape for testing. A Chrome Type-II type is recommended.
  - A clear space to work. I like to utilise my standing desk and lay down a sheet of card - if someone wants to buy me an anti static mat, both xmas and my birthday are near at the time of writing this ;)
- - Time & patience. This stuff can get fiddly and frustrating, you want enough time to not rush things, and to be able to leave the unit disassembled and come back to it if you hit a snag.
+ - Time & patience! This stuff can get fiddly and frustrating, you want enough time to not rush things, and space to be able to leave the unit disassembled and come back to it if you hit a snag.
 
 ![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1a_tools.JPG){: .img-resize .img-center }
 *Gather your tools*
@@ -237,6 +237,8 @@ Once you're happy with it, reattach the knobs and screw the unit together. If al
 ![mt4x finished]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_z_finished.JPG){: .img-resize .img-center }
 *The clean, finished unit*
 
-I hope this has been helpful to someone out there. There are various items I haven't covered, which I hopefully well at a later date, such as demagnetising, motor speed adjustment and azumith adjustment, but these are often not necessary and a bit more advanced or require more expensive tools.
+You can here a little test I recorded on this unit [here](https://urldefense.com/v3/__https://u.pcloud.link/publink/show?code=XZ7eeOXZ0NdgU4ov2LhY1pX1z0jmyy386bmV__;!!Bvq7KQ!nLeOL8cqpzEslVQd-uf4tYk-SIMqzdLRyMDzitTKNLXgleIxHYMMYN6qC2tuzA$).
 
-I'd love to hear from others with part numbers, corrections and ideas in the comments.
+I hope this has been helpful to someone out there. There are various items I haven't covered, which I hopefully will at a later date, such as demagnetising, motor speed adjustment and azumith adjustment, but these are often not necessary and a bit more advanced or require more expensive tools.
+
+I'd love to hear from others with part numbers for these units, and any corrections, questions and ideas in the comments.
