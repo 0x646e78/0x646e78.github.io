@@ -88,7 +88,7 @@ I will use the following jq filter to show succinct vulnerability information:
 jq '.Results[].Vulnerabilities[] | {"ID": .VulnerabilityID, "name": .Title, "severity": .Severity, "pkgname": .PkgName, "installedversion": .InstalledVersion, "fixedversion": .FixedVersion}'
 ```
 
-*Pricing*: Open Source / Free
+**Pricing**: Open Source / Free
  
 
 ### Snyk
@@ -127,7 +127,7 @@ A finding  looks like:
   Fixed in: 7.79.0-r0
 ```
 
-*Pricing*: Free for individuals and small teams, this has some limitations in features available which don't affect this CLI type of testing.
+**Pricing**: Free for individuals and small teams, this has some limitations in features available which don't affect this CLI type of testing.
 
 
 ### AWS ECR
@@ -202,7 +202,7 @@ Summary information is also presented:
 }
 ```
 
-*Pricing*: From what I can tell ECR vulnerability scanning doesn't incur a charge, but I can't find any docs on this.
+**Pricing**: From what I can tell ECR vulnerability scanning doesn't incur a charge, but I can't find any docs on this.
 The [ECR Pricing doc](https://aws.amazon.com/ecr/pricing/) suggests fees are only for the amount of data stored or transferred. Probably for a small self-hosted
 project this might be a few dollars per month. If you're an organisation running builds thousands of times per day and have
 to upload each image to ECR before a vuln scan step then it could start to add up.
