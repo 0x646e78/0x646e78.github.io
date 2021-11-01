@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Image Vulnerability Scanners Compared, Pt1"
-date:   2021-10-29 12:00:00 +1000
+date:   2021-10-31 12:00:00 +1000
 categories: programming linux security docker
 ---
 
