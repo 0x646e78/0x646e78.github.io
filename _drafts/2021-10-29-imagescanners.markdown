@@ -94,7 +94,7 @@ jq '.Results[].Vulnerabilities[] | {"ID": .VulnerabilityID, "name": .Title, "sev
 ### Snyk
 
 
-Snyk is a vulnerability scanner and SaaS. They provided a range of capabilities such as open source dependency scans,
+Snyk is a vulnerability scanner and SaaS. They provide a range of capabilities such as open source dependency scans,
 IaC and container scanning.
 
  - [Homepage](https://snyk.io/)
@@ -111,8 +111,8 @@ Run with:
 docker scan <image>
 ```
 
-There is a json output, but I like the grepable output and bundling of vulnerabilities presented by default on the CLI.
-More information is available in json by passing in `--json` if desired.
+There is a json output, but I like the grepable output and bundling of vulnerabilities presented by default on the CLI
+for what I'm doing here.  More information is available in json by passing in `--json` if desired.
 
 A finding  looks like:
 
@@ -133,7 +133,7 @@ A finding  looks like:
 ### AWS ECR
 
 
-AWS has an image scanning capability, which can be used to scan images with an AWS ECR repository. According to their docs "Each container image may be scanned once per 24 hours. Amazon ECR uses the Common Vulnerabilities and Exposures (CVEs) database from the open-source Clair project"
+AWS has an image scanning capability, which can be used to scan images within an AWS ECR repository. According to their docs "Each container image may be scanned once per 24 hours. Amazon ECR uses the Common Vulnerabilities and Exposures (CVEs) database from the open-source Clair project"
 
 - [Homepage](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html)
 
@@ -176,6 +176,7 @@ A finding looks like this:
     }
   ]
 },
+```
 
 It's worth noting here that there is no description or summary of the issue nor remediation information.
 
