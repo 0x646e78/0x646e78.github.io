@@ -220,7 +220,7 @@ Running a basic health check endpoint and no configurations altered.
 
 ## Unpatched
 
-No OS upgrades applied vi APK.
+No OS upgrades applied via APK.
 
 ```
 FROM nginx:1.20-alpine
@@ -232,7 +232,7 @@ Built with `docker build . -t nginxlab:latest`
 
 ### Trivy
 
-Total: 7 (UNKNOWN: 0, LOW: 0, MEDIUM: 3, HIGH: 2, CRITICAL: 2)
+2 Critical, 2 High, 3 Medium
 
 ```
 {
@@ -420,5 +420,6 @@ So we have a false positive here due to an inaccurate match between the affected
 
 
 ## Part 2
+
 Part 2 coming soon, with a deeper look at the results of from the unpatched image and a test of further scan features such as detection of misconfigurations.
 
