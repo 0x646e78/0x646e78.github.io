@@ -5,23 +5,22 @@ date:   2021-10-29 12:00:00 +1000
 categories: programming linux security docker
 ---
 
-I'm looking at the capabilities and results from three container image vulnerability scanners. In this first
-segment I look at set up of the scans and gather vulnerability results for both a patched and unpatched image.
+I'm looking at the capabilities and results from three container image vulnerability scanners - Trivy, Snyk & AWS ECR Scanning.
 
-In the next part I will have a look at which appears to be more accurate in it's findings, and other available
-features such as misconfiguration detection.
+In this first segment I look at set up of the scans and gather vulnerability results for both a patched and unpatched image. 
+In part 2 I will have a look at which appears to be more accurate in it's findings, and other available features such as misconfiguration detection.
 
 
-## Introducting the tools.
+## Introducing the tools
 
 ### Trivy
 
-https://github.com/aquasecurity/trivy
 
 Trivy is an open source vulnerability & misconfiguration scanner maintained by Aqua Security, 
 and is very quick and easy to get started.
 
-[Installation steps](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/overview/)
+ - [Homepage](https://github.com/aquasecurity/trivy)
+ - [Installation steps](https://aquasecurity.github.io/trivy/v0.20.2/getting-started/overview/)
 
 ```
 ❯ trivy --version
@@ -94,17 +93,17 @@ jq '.Results[].Vulnerabilities[] | {"ID": .VulnerabilityID, "name": .Title, "sev
 
 ### Snyk
 
-https://snyk.io/
 
 Snyk is a vulnerability scanner and SaaS. They provided a range of capabilities such as open source dependency scans,
 IaC and container scanning.
+
+ - [Homepage](https://snyk.io/)
+ - [Installation steps](https://docs.snyk.io/features/snyk-cli/install-the-snyk-cli)
 
 ```
 ❯ snyk --version
 1.745.0 (standalone)
 ```
-
-[Installation steps](https://docs.snyk.io/features/snyk-cli/install-the-snyk-cli)
 
 Run with:
 
@@ -133,9 +132,10 @@ A finding  looks like:
 
 ### AWS ECR
 
-https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html
 
 AWS has an image scanning capability, which can be used to scan images with an AWS ECR repository. According to their docs "Each container image may be scanned once per 24 hours. Amazon ECR uses the Common Vulnerabilities and Exposures (CVEs) database from the open-source Clair project"
+
+- [Homepage](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html)
 
 Log into an ECR registry with the docker client. See the [AWS Docs](https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html)
 
