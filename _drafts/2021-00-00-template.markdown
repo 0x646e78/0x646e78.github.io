@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Template"
+date:   2021-11-29 12:00:00 +1000
+categories: electronics cassette 4track audio programming midnightphilosophy jekyll bash linux nftables security grep til ansible project_management python docker
+---
+
+First line will show as the preview on blog listing.
+
+![Image Title]({{ BASE_PATH }}/assets/article_images/<postname>/file.jpg){ .img-resize .img-center}
+*Image Caption*
+
