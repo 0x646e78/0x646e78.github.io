@@ -178,7 +178,7 @@ A finding looks like this:
 },
 ```
 
-It's worth noting here that there is no description or summary of the issue nor remediation information.
+...feels a bit sparse to me.
 
 Summary information is also presented:
 
@@ -207,8 +207,6 @@ Summary information is also presented:
 The [ECR Pricing doc](https://aws.amazon.com/ecr/pricing/) suggests fees are only for the amount of data stored or transferred. Probably for a small self-hosted
 project this might be a few dollars per month. If you're an organisation running builds thousands of times per day and have
 to upload each image to ECR before a vuln scan step then it could start to add up.
-
-```
 
 I will be using the following jq filter to present a succinct view of the findings from ECR:
 
