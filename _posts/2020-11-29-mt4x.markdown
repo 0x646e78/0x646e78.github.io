@@ -9,15 +9,18 @@ I've recently serviced a couple of Yamaha mt4x four track cassette recorders.
 Here I overview the process that I took and try to share info that I couldn't easily find online myself.
 
 The images used are mostly from the restoration of a 100V machine I picked up on eBay. When I got it
- it was dead and extremely dirty inside and out. I have added images from another (240v) machine in some places
+ it wouldn't power on and was very dirty inside and out. I have added images from another (240v) machine in some places
  to show differences or where I missed photographing something originally.
 
-I have probably missed a couple of steps or don't always follow a best practice, so please leave a comment if you have anything to add.
+There are probably some approaches that could be improved or things to know, so if you have any experience with these I'd be keen to hear your experience.
 
-![Dead & Dirty MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg){: .img-resize .img-center }
+![Dead & Dirty Yamaha MT4X]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_1_dead.jpg){: .img-resize .img-center }
 *Starting Point: Dead & Dirty MT4X*
 
-Before you start unscrewing anything, you'll want to make sure you've got a few things ready. I make sure I have the following available.
+Gather Tools & Hardware
+---
+
+Before unscrewing anything, you'll want to make sure you've got a few things ready. I make sure I have the following available.
 
  - 2x Phillips Screwdrivers. A little one, and a bigger one.
  - Tweezers. I prefer to have both a bent and straight set on hand, but one will do.
@@ -38,13 +41,7 @@ Before you start unscrewing anything, you'll want to make sure you've got a few 
  - A clear space to work. I like to utilise my standing desk and lay down a sheet of card - if someone wants to buy me an anti static mat, both xmas and my birthday are near at the time of writing this ;)
  - Time & patience! This stuff can get fiddly and frustrating, you want enough time to not rush things, and space to be able to leave the unit disassembled and come back to it if you hit a snag.
 
-![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1a_tools.JPG){: .img-resize .img-center }
-*Gather your tools*
-
-![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1c_screws.JPG){: .img-resize .img-center }
-*Keeping fixings tidy saves a headache later on*
-
-I also want to note the values of fuses, servo and belts which are from my observations and measurements. I have been unable to find any values for these online and am yet to et hold of a service manual. I would greatly appreciate comments of official values, or your observed values if you are taking a unit apart.
+I'm noting the ratings of fuses, servo and belts which are from my observations and measurements. I have been unable to find any values for these online and am yet to get hold of a service manual. I would greatly appreciate comments of official values, or your observed values if you are taking a unit apart.
 
 - 1x 70mm x 1mm square belt
 - 1x 115mm x 4.7mm flat belt
@@ -52,11 +49,20 @@ I also want to note the values of fuses, servo and belts which are from my obser
 - 1x 240v 500mA 20mm fast blow fuse (100v model) 
 - 1x 240v 120mA 20mm fast blow fuse (240v model)
 
+![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1a_tools.JPG){: .img-resize .img-center }
+*Gather your tools*
+
+![Gather your tools]({{ BASE_PATH}}/assets/article_images/2020-11-29-mt4x/mt4x_1c_screws.JPG){: .img-resize .img-center }
+*Keeping fixings tidy saves a headache later on*
+
+Disassembly
+---
+
 Now that we have a space to work and appropriate tools for the job, let's get into the fun and pull this thing apart.
 
-The first thing you want to do, which I've neglected to photograph, is remove all of the knobs. All knobs, and all mixer sliders will pull off. Some might be a bit sticky but just pull straight up and it will come off. Don't try to remove the push buttons, they're affixed from the inside.
+The first thing you want to do - which I neglected to photograph - is remove all of the knobs. All knobs, and all mixer sliders will pull off. Some might be a bit sticky but just pull straight up and it will come off. Don't try to remove the push buttons, they're affixed from the inside.
 
-Once the knobs are removed, flip the unit over. Be careful of the exposed knobs, you don't want to break these (or scratch your desk). I find as long as you lay it down gently you'll be fine.
+Once the knobs are removed, flip the unit over. Be careful of the exposed knobs, you don't want to break these (or scratch your desk). I find as long as you lay it down gently you'll be fine, placing a clean rag (tea towels work well) first is helpful.
 
 There are 10 screws to remove here. 7 long, 3 short. 
 
@@ -78,7 +84,10 @@ With that wire out of the way we can proceed to open the unit. Carefully pivit f
 With the unit open, lift the shielding layer from the PCB (no need to fully disconnect it), and remove the connections between the top and base. For the grey and blue ribbon connectors there is a black terminal block that can be pulled up to release. The white and red connectors can be pulled straight up. If something feels very stuck, double check what you're doing before proceeding.
 
 ![Ribbon connectors]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_3a_ribbons.JPG){: .img-resize .img-center }
-*Disconnect the connection points between top from base*
+*Disconnect the ribbon cables between from base circuit board*
+
+Clean, Lube & Replace Parts
+---
 
 With the unit top and base seperated, set the top aside somewhere safe, and we will work through servicing the base parts. First take some time to familiarise yourself with what you've got in front of you and look for any damage, fluff, signs of past water spills etc. Then before continuing, fit the shield back over the PCB. Have you spotted the fuse yet? It is not the most convenient place, hidden away under the cassette mechanism.
 
@@ -99,9 +108,9 @@ With a small brush and tweezers remove any dust and fluff from the cassette mech
 ![mt4x mech]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5c_mechanism.JPG){: .img-resize .img-center }
 *Remove the three corner screws from the cassette machanism*
 
-You can the gently flip the mechanism over to the right, resting it upon the shielding.
+Gently flip the mechanism over to the right, resting it upon the shielding.
 
-From here we have access to the fuse. If it needs replacing, do so now. 
+From here we have access to the fuse. If it needs replacing, do so now. What a pain to replace a fuse huh!
 
 ![mt4x fuse 100v]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_5d_fuse_100v.JPG){: .img-resize .img-center }
 *Fuse in a 100v model*
@@ -219,12 +228,15 @@ This can be fairly time consuming, just be slow and methodical about it. The res
 
 ![mt4x pcbclean3]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_12d.JPG){: .img-resize .img-center }
 
-At this stage you will have clean boards, and a clean and dry shell. Now reverse the steps taken to remove everything to put it back together. If ribbon connector pins are a little bent, straighten the before slotting back in. When it comes to the plastic pins squeeze the ends together with some small pliers to insert back into their holes.
+Reassembly
+---
+
+At this stage you will have clean boards, and a clean and dry shell. Now reverse the steps taken to remove everything to put it back together. If ribbon connector pins are a little bent, straighten these before slotting back in. When it comes to the plastic pins squeeze the ends together with some small pliers to insert back into their holes.
 
 ![mt4x pin_attachment]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_14_pins.JPG){: .img-resize .img-center }
 *Squeeze pin ends to insert*
 
-Attach the base to the top, following the order of removal and any markings you made for connectors. When jooining the top and botton ensure no cables are pinched.
+Attach the base to the top, following the order of removal and any markings you made for connectors. When joining the top and botton ensure no cables are pinched.
 
 Once it's all together, and before screwing the top and base together or replacing all the knobs, test the unit. Use a guitar, bass or whatever you have at hand with a 1/4" cable and record something to each channel. Then listen back, and rotate all knobs and move sliders. I use headphones. Some of the jacks I haven't tested at this time such as tape out, but they worked before so I'm fairly happy to test them in the studio later.
 
@@ -232,13 +244,14 @@ Once it's all together, and before screwing the top and base together or replaci
 ![mt4x testing]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_y_testing.JPG){: .img-resize .img-center }
 *Testing the unit*
 
-Once you're happy with it, reattach the knobs and screw the unit together. If all goes well you'll have a shiny unit with much less noise and issues than before.
+Once you're happy with it, reattach the knobs and screw the unit together. If all goes well you'll have a shiny well functioning unit.
+
+Hit Record
+---
+
+I hope this has been helpful to someone. There are various items I haven't covered, which I hopefully will at a later date, such as demagnetising, motor speed adjustment and azumith adjustment, but these are often not necessary and a bit more advanced or require more expensive tools.
+
+I'd love to hear from others with part numbers for these units, and any corrections, questions and ideas in the comments.
 
 ![mt4x finished]({{ BASE_PATH }}/assets/article_images/2020-11-29-mt4x/mt4x_z_finished.JPG){: .img-resize .img-center }
 *The clean, finished unit*
-
-You can here a little test I recorded on this unit [here](https://urldefense.com/v3/__https://u.pcloud.link/publink/show?code=XZ7eeOXZ0NdgU4ov2LhY1pX1z0jmyy386bmV__;!!Bvq7KQ!nLeOL8cqpzEslVQd-uf4tYk-SIMqzdLRyMDzitTKNLXgleIxHYMMYN6qC2tuzA$).
-
-I hope this has been helpful to someone out there. There are various items I haven't covered, which I hopefully will at a later date, such as demagnetising, motor speed adjustment and azumith adjustment, but these are often not necessary and a bit more advanced or require more expensive tools.
-
-I'd love to hear from others with part numbers for these units, and any corrections, questions and ideas in the comments.
