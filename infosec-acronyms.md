@@ -65,6 +65,10 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **CAPEC** - Common Attack Pattern Enumeration and Classification
 
+**CAPP** - Controlled Access Protection Profile
+
+**CC** - Common Criteria
+
 **CCM** - Cloud Controls Matrix
 
 **CCSP** - Certified Cloud Security Professional \(ISC2\)

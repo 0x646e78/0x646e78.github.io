@@ -1,3 +1,3 @@
 # ghostinashell.com
 
-DNX github pages blog, using jekyl
+DNX github pages blog, using jekyll
