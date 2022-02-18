@@ -123,7 +123,7 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **CWE** - Common Weakness Enumeration
 
-**CWPP** - Cloud Workload Protection Platforms
+**CWP** - Cloud Workload Protection
 
 **DAST** - Dynamic Application Security Testing
 
