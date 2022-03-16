@@ -35,7 +35,7 @@ plugins:
 minima:
   skin: classic
   date_format: "%b %-d, %Y"
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
