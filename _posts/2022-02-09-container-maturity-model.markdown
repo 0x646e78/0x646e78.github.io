@@ -20,7 +20,7 @@ Enter Capability Maturity Models
 
 A [Capability Maturity Model (CMM)][CMM], or variation of such, is often employed when assessing software development processes. The general apprach is to have key process areas, each of which contain a set of related activities, and each activity has a set of criterea which are marked with a rating of 1-5, with 3 often being 'good' or 'defined'. An example used within cybersecurity is [Building Security in Maturity Model (BSIMM)][BSIMM], which "provides an objective, data-driven evaluation that leaders seeking to improve their security postures can use to base decisions about resources, time, budget, and priorities". It has a large community, but also complexity and a focus different to what we're working on here. I want something 'light touch' and focused on the container ecosystem.
 
-![CMM Levels]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/cmm_levels.png){ .img-resize .img-center}
+![CMM Levels]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/cmm_levels.png){: .img-resize .img-center}
 *Capability Maturity Levels (from Wikipedea)*
 
 The Cloud Native Security Whitepaper
@@ -28,7 +28,7 @@ The Cloud Native Security Whitepaper
 
 In late 2020 the [Cloud Native Foundation SIG-Security][TAG-SEC] (now TAG-Security) published the [Cloud Native Security Whitepaper][whitepaper]. This defines & describes lifecycle Stages within a Cloud Native ecosystem. These four phases were **Develop**, **Distribute**, **Deploy**, and **Runtime** and are depicted below.
 
-![CNCF Lifecycle Stages]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/cncf_lifecycle.png){ .img-resize .img-center}
+![CNCF Lifecycle Stages]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/cncf_lifecycle.png){: .img-resize .img-center}
 *Coud Native Lifecycle*
 
 These lifecycle phases can be used as process areas in a model, grouping the processes & activities relating to container security.
@@ -69,7 +69,7 @@ For ease of getting started, Excel was chosen, with a star chart displaying wher
 
 I spent a chunk of time thinking about each area and got it into something that I felt was workable. The definitions for each row generally based upon the CNCF Security Whitepaper, and also largely informed by my individual experience of the capabilities, standards, 'good practices' in existence as well as what I've experienced over the years working in infosec. It's imperfect and hopefully can grow and adjust over time.
 
-![Capability Star]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/star.png){ .img-resize .img-center}
+![Capability Star]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/star.png){: .img-resize .img-center}
 *Visualising Maturity*
 
 Utilising the Model
@@ -79,10 +79,10 @@ I rated each of the sections based on info I could find and what I knew, and got
 
 Based on the Whitepaper, the rows of the model and the technical and policy capabilities in the organistation I populated a Miro board to use in a group session. Each lifecycle phase is broken into sections, and in each we have our existing practices, and an area to note our gaps. There is also a box in each section for 'research tasks', items that may be noted but we're not sure how useful it could be, which tech to go with etc. 
 
-![Miro High Level]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-zoomed-out.png){ .img-resize .img-center}
+![Miro High Level]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-zoomed-out.png){: .img-resize .img-center}
 *Utilising Miro For Group Gap Analysis*
 
-![Miro Develop Lifecycle]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-develop.png){ .img-resize .img-center}
+![Miro Develop Lifecycle]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-develop.png){: .img-resize .img-center}
 *Close Up of the Develop Lifecycle Stage within Miro*
 
 A session was scheduled with our relevant security folks and most importantly with those who engineer container-based environments at an organisational practice level. This session was around 90 minutes where the model & lifecycle was introduced and then we went through the various stages giving people time to add post-its and notes. Before moving to the next section we'd quickly summarise and clarify, at the end of the session I got some overall feelings from people and gathered various themes, clarifying some of the items.
