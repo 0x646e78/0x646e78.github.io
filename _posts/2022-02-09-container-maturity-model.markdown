@@ -1,4 +1,4 @@
--. Actually, I already knew this, but --
+---
 layout: post
 title:  "A Container Security Maturity Model"
 date:   2022-02-09 12:00:00 +1000
@@ -12,6 +12,8 @@ This post is about building & using a maturity model to help assess & prioritise
 Perhaps you're a security engineer or an engineering lead in an organisation. You're cloud-first, shipping most things in containers. Like many in this position you may have more than a suspician that your container ecosystem lacks security features, that there are various risks and that there is a potential need to uplift. But it's also a large subject area to address narrowly, there is a lot of complexity.
  
 How can you effectively build a business case and determine your priorities within such a large, complex set of systems and practices? For support I like to draw from a public model or framework, others in the industry have given input based on their experience and situations they have faced, and often showing a precedent of 'industry practice' will be of great help.
+
+I have uploaded the resultant sheet as an ODS to [this repo.][CSMM] I'll aim to update this to somewhere collaborative such as Google Sheets in coming days.
 
 Enter Capability Maturity Models
 ---
@@ -105,6 +107,7 @@ Jira is also hard - grouping things, prioritisation, visualising are all difficu
 The whitepaper & lifecycle are evolving, the work of the CNCF Tag-Security is ongoing and a valuable asset to the community. A new version of the whitepaper is underway, and there is also the previously mentioned [CNCF Security Map][cncf-map] which aims to collect tooling that may contribute toward the various phases.
 
 
+[CSMM]: {{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/Container-Security-Maturity-Model-feb2022.ods
 [CMM]: https://en.wikipedia.org/wiki/Capability_Maturity_Model
 [BSIMM]: https://www.bsimm.com/
 [TAG-SEC]: https://github.com/cncf/tag-security
