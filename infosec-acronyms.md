@@ -271,6 +271,8 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **NGCI** - Next Generation Cyber Infrastructure
 
+**NGES** - Next Generation Endpoint Security
+
 **NGFW** - Next Generation Firewall
 
 **NMS** - Network Management System 

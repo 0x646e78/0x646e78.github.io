@@ -1,4 +1,4 @@
----
+-. Actually, I already knew this, but --
 layout: post
 title:  "A Container Security Maturity Model"
 date:   2022-02-09 12:00:00 +1000
@@ -77,30 +77,32 @@ I rated each of the sections based on info I could find and what I knew, and got
 
 Based on the Whitepaper, the rows of the model and the technical and policy capabilities in the organistation I populated a Miro board to use in a group session. Each lifecycle phase is broken into sections, and in each we have our existing practices, and an area to note our gaps. There is also a box in each section for 'research tasks', items that may be noted but we're not sure how useful it could be, which tech to go with etc. 
 
-<insert image of miro>
+![Miro High Level]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-zoomed-out.png){ .img-resize .img-center}
+*Utilising Miro For Group Gap Analysis*
 
-Miro session
+![Miro Develop Lifecycle]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/miro-develop.png){ .img-resize .img-center}
+*Close Up of the Develop Lifecycle Stage within Miro*
 
-Build a plan from this
+A session was scheduled with our relevant security folks and most importantly with those who engineer container-based environments at an organisational practice level. This session was around 90 minutes where the model & lifecycle was introduced and then we went through the various stages giving people time to add post-its and notes. Before moving to the next section we'd quickly summarise and clarify, at the end of the session I got some overall feelings from people and gathered various themes, clarifying some of the items.
 
-Prioritise & implement
+From this I went away and worked on a plan. We utilise Jira and so I took the lifecycle stages and themes identified within these as Epics, within each listing out the various gaps as Tasks or Stories - worded in such a way to highlight the remedial work and linked all together using a label plus another label for the lifecycle stage, eg 'cncf-develop'. The various Epics were grouped under Initiatives. An example would be an Initative of "Implement & Enforce Security Capabilities In Image Builds", under which one of the Epics of "Aggregate Image & Container Metadata into SIEM", and within this one of the tasks of "Correlate Running Container IDs With Image Vulnerability Data". IMHO Jira can be a bit clunky in organising complex pieces of work - but these systems all are a bit - but it was certainly helpful to get a view of the actual work. For more on the structuring work within Jira there is a decent article from Atlassian [here][jira-blog]
 
+Once the items are all in Jira it's still just a big bunch of work. So, this is where the model helps. We'd marked where we want to be, we'd marked where we are, and we have Jira labels allowing us to narrow into the areas. For me with starting such work I look at where we have the biggest gap, then where we can get the highest value which is the simplest to do. So from here we know what is first up, and can reasonably plan for the next few months. Anything after that can be planned later. I won't go into detail of what we picked - for you it might be implementing a break-build capability pre-push based on an agreed threshold. It could be implementing an admission controller to allow policy adherence within your kubernetes stack.
 
-Reflections On the Experience
+Reflections
 ---
 
-Distribute & Runtime felt the heaviest. A lot of items in Distribute/Image Registry.
+Overall the process of creating a model helped get my head around this complex space. It is obvious to me that Cloud Native and within that container security in entwined with all aspects of application & platform development and operations. Scoping helped to give a clearer picture of the container domain, and what was relevant within my organisation.  Having a published whitepaper from an industry body is incredibly valuable. Having the resultant visualisation of current and hoped maturity has been very effective in describing the problem and deciding where to increase resources.
 
-Miro is hard, people really need to use it regularly to feel comfortable contributing.
-Miro is great, the ability to visualise and all work together is especially important in remote work.
-It's hard to box items into the phases - areas cross over, such as build capabilities (Distribute) being largely the same as IDE/local tooling in many situations (Develop). This is always the case with complex systems.
-A container ecosystem is not always easily definable - host system hardening & forensics; pentests & redteaming.
-The whitepaper & lifecycle are evolving. Actually, I already knew this, but 
-Having a published whitepaper from an industry body is incredibly valuable.
-Getting ideas down in various forms helps to formulate them
-Jira is hard - grouping things, prioritisation if your workspace isn't set up well.
+I found that the Cloud Native Lifecycle Phases ends up with the largest proportion of items in Distribute & Runtime. This makes sense when you consider CI/CD often being the central place of earliest value stage gating (Distribute), and all of the moving pieces that could be involved in your production environments (Runtime). Once again, scoping can help here - especially with runtime - e.g EDR might be a pre-existing process handled by your SecOps team and wider than just cloud or containers, in a similar way you may already have standard Base OS hardening processes.
 
+It is hard to box all items into the phases - areas cross over, such as build capabilities (Distribute) being largely the same as IDE/local tooling in many situations (Develop). This is always the case with complex systems, trying to link these together in the task capture tool such as Jira or make a decision for the sake of progressing the work helps somewhat. The aim isn't to neatly categorise things at the end of the day but to strengthen your security posture.
 
+I used Miro for collaboration on gap and uplift. Miro can be hard, people generally need to use it regularly to feel comfortable contributing. It is a great tool, the ability to visualise and all work together is especially important in remote work, but if your organisation suffers from a lack of standardisation in collaboration tool there will often be a barrier to effective contributions based on the comfort levels with the tool.
+
+Jira is also hard - grouping things, prioritisation, visualising are all difficult at the best of times let alone if your workspace isn't set up all that well. Once I had the uplift items in here though it was very easy to link to, show how long we've had these issues logged, drag items into a roadmap and collect relevant information.
+
+The whitepaper & lifecycle are evolving, the work of the CNCF Tag-Security is ongoing and a valuable asset to the community. A new version of the whitepaper is underway, and there is also the previously mentioned [CNCF Security Map][cncf-map] which aims to collect tooling that may contribute toward the various phases.
 
 
 [CMM]: https://en.wikipedia.org/wiki/Capability_Maturity_Model
@@ -111,3 +113,4 @@ Jira is hard - grouping things, prioritisation if your workspace isn't set up we
 [4Cs]: https://kubernetes.io/docs/concepts/security/overview/
 [rh-devops]: https://www.redhat.com/architect/enterprise-architects-devsecops
 [CNCF]: https://www.cncf.io/
+[jira-blog]: https://www.atlassian.com/agile/project-management/epics-stories-themes
