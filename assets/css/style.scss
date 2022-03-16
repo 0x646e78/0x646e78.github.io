@@ -6,7 +6,7 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-/*.img-center
+.img-center
 {
     margin: 0 auto;
     display: block;
@@ -20,4 +20,3 @@ img + em {
     display: block;
     text-align: center;
 }
-*/

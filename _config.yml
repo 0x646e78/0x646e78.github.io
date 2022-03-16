@@ -26,14 +26,14 @@ disqus:
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 google_analytics: UA-58697081-2
 show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 minima:
-  skin: classic
+  skin: dark
   date_format: "%b %-d, %Y"
 remote_theme: jekyll/minima
 
