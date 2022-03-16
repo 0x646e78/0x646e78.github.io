@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 minima:
-  skin: dark
+  skin: classic
   date_format: "%b %-d, %Y"
 remote_theme: jekyll/minima
 
