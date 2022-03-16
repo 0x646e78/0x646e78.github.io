@@ -26,14 +26,14 @@ A [Capability Maturity Model (CMM)][CMM], or variation of such, is often employe
 The Cloud Native Security Whitepaper
 ---
 
-In late 2020 the [Cloud Native Foundation SIG-Security][TAG-SEC] (now TAG-Security) published the [Cloud Native Security Whitepaper][whitepaper]. This defines & describes lifecycle Stages within a Cloud Native ecosystem. These four phases were **Develop**, **Distribute**, **Deploy**, and **Runtime** and are depicted below.
+In late 2020 the [Cloud Native Foundation TAG-Security][TAG-SEC] published the [Cloud Native Security Whitepaper][whitepaper]. This defines & describes lifecycle Stages within a Cloud Native ecosystem. These four phases were **Develop**, **Distribute**, **Deploy**, and **Runtime** and are depicted below.
 
 ![CNCF Lifecycle Stages]({{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/cncf_lifecycle.png){: .img-resize .img-center}
 *Coud Native Lifecycle*
 
 These lifecycle phases can be used as process areas in a model, grouping the processes & activities relating to container security.
 
-There are other frameworks for looking at cloud & container ecosystems, such as the [4Cs][4Cs], Redhat’s DevSecOps maturity model][rh-devops], and vendor models such as those seen on Aqua security homepage. As the [CNCF][CNCF] is well placed as a vendor-neutral Cloud Native industry body, and their Security-TAG is extremely active and knowledgeable I felt that basing a model on the Cloud Native Security Whitepaper was most suitable.
+There are other frameworks for looking at cloud & container ecosystems, such as the [4Cs][4Cs], [Redhat’s DevSecOps maturity model][rh-devops], and vendor models such as those seen on Aqua security homepage. As the [CNCF][CNCF] is well placed as a vendor-neutral Cloud Native industry body, and their Security-TAG is extremely active and knowledgeable I felt that basing a model on the Cloud Native Security Whitepaper was most suitable.
 
 Building the Model
 ---
@@ -104,7 +104,7 @@ I used Miro for collaboration on gap and uplift. Miro can be hard, people genera
 
 Jira is also hard - grouping things, prioritisation, visualising are all difficult at the best of times let alone if your workspace isn't set up all that well. Once I had the uplift items in here though it was very easy to link to, show how long we've had these issues logged, drag items into a roadmap and collect relevant information.
 
-The whitepaper & lifecycle are evolving, the work of the CNCF Tag-Security is ongoing and a valuable asset to the community. A new version of the whitepaper is underway, and there is also the previously mentioned [CNCF Security Map][cncf-map] which aims to collect tooling that may contribute toward the various phases.
+The whitepaper & lifecycle are evolving, the work of the CNCF Tag-Security is ongoing and a valuable asset to the community. A new version of the whitepaper is underway, and there is also the previously mentioned [CNCF Security Map][cncf-map] which aims to collect tooling that may contribute toward the various phases. A space I'll watch closely and hopefully get more involved in.
 
 
 [CSMM]: {{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/Container-Security-Maturity-Model-feb2022.ods
