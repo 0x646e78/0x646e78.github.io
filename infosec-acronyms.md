@@ -311,7 +311,11 @@ To update or add an item please open a pull request  or issue on the [repository
 
 **PASTA** - Process for Attack Simulation & Threat Analysis
 
-**PCI** - Payment Card Industry \(Also **PCI DSS** - Data Security Standard\)
+**PCD** - Payment Card Data
+
+**PCI DSS** - Payment Card Industry Data Security Standard
+
+**PCI SSC** - Payment Card Industry Security Standards Council
 
 **PIC** - Position-independent Code
 
@@ -396,6 +400,8 @@ To update or add an item please open a pull request  or issue on the [repository
 **SPF** - Sender Policy Framework
 
 **SQLi** - SQL Injection
+
+**SRI** - Sub-resource Integrity
 
 **SSH** - Secure Shell
 
