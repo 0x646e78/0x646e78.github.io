@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "A Container Security Maturity Model"
-date:   2022-03-16 12:00:00 +1000
+date:   2022-04-11 12:00:00 +1000
 categories: security docker cloudnative containers
 ---
 
-Putting the CNCF Cloud Native Security Whitepaper into practice.
+Putting the CNCF Cloud Native Security Whitepaper into practice. An updated version of this post I published last month, now with the model in public Google Sheets instead of the repo as well as various edits.
 
 This post is about building & using a maturity model to help assess & prioritise a subject area within cybersecurity. Specifically it is focused on drawing from the [CNCF Cloud Native Security Whitepaper][whitepaper] to measure the security posture of container workloads, from development through runtime. The process of making such a model should generally be useful outside of just container security.
 
@@ -13,7 +13,7 @@ Perhaps you're a security engineer or an engineering lead. Cloud-first, shipping
  
 How can you effectively build a business case and determine your priorities within a large, complex set of systems and practices? I like to draw from a public model or framework, others in the industry have given input based on their experience and situations they have faced, and often showing a precedent of 'industry practice' will be of great help.
 
-I have uploaded the resultant sheet as an ODS to [this repo.][CSMM] I'll aim to update this to somewhere collaborative such as Google Sheets soon.
+The resulting model is available in Google Sheets [here][CSMM]. If anyone wants commenter access let me know.
 
 Enter Capability Maturity Models
 ---
@@ -94,9 +94,13 @@ Once it's all in Jira it's still just a big bunch of tasks. This is where the mo
 Reflections
 ---
 
+I like simple visual reprentations, based on some reasonable process to get there, and I'm happy with the result. It's a bit rough, some of the language could be adjusted and more measurable metric definitions worked toward.
+
+Having a published whitepaper from an industry body (the wonderful [CNCF][CNCF] in this case) is incredibly valuable.
+
 Having a published whitepaper from an industry body is incredibly valuable. Having the resultant visualisation of current and hoped maturity has been very effective in describing our problems and deciding where to increase resources.
 
-The process of creating a model helped get my head around this complex space. It is obvious to me that Cloud Native and within that container security is entwined with all aspects of application & platform development and operations. Scoping helped to give a clearer picture of the container domain, and what was relevant within my organisation.I found that the Cloud Native Lifecycle Phases ends up with the largest proportion of items in Distribute & Runtime. This makes sense when you consider CI/CD often being the central place of earliest value stage gating (Distribute), and all of the moving pieces that could be involved in your production environments (Runtime). Once again, scoping can help here - especially with runtime - e.g EDR might be a pre-existing process handled by your SecOps team and wider than just cloud or containers, in a similar way you may already have standard Base OS hardening processes - so the container base host is out of scope.
+Creating a model helped get my head around this complex space. Cloud Native and within that container security is entwined with all aspects of application & platform development and operations. Scoping helped to give a clearer picture of the container domain, and what was relevant within my organisation.I found that the Cloud Native Lifecycle Phases ends up with the largest proportion of items in Distribute & Runtime. This makes sense when you consider CI/CD often being the central place of earliest value stage gating (Distribute), and all of the moving pieces that could be involved in your production environments (Runtime). Once again, scoping can help here - especially with runtime - e.g EDR might be a pre-existing process handled by your SecOps team and wider than just cloud or containers, in a similar way you may already have standard Base OS hardening processes - so the container base host is out of scope.
 
 It is hard to box all items into the phases - areas cross over, such as build capabilities (Distribute) being largely the same as IDE/local tooling in many situations (Develop). This is always the case with complex systems, trying to link these together in the task capture tool such as Jira or make a decision for the sake of progressing the work helps somewhat. The aim isn't to neatly categorise things at the end of the day but to strengthen your security posture.
 
@@ -104,10 +108,10 @@ I used Miro for collaboration. People generally need to use it regularly to feel
 
 Jira is also hard - grouping things, prioritisation, visualising are all difficult at the best of times let alone if your workspace isn't set up all that well. Once I had the uplift items in here though it was very easy to link to, show how long we've had these issues logged, drag items into a roadmap and collect relevant information.
 
-The whitepaper & lifecycle are evolving, the work of the CNCF Tag-Security is ongoing and a valuable asset to the community. A new version of the whitepaper is underway, and there is also the previously mentioned [CNCF Security Map][cncf-map] which aims to collect tooling that may contribute toward the various phases. A space I'll watch closely and hopefully get more involved in.
+The whitepaper & lifecycle are evolving, the [CNCF Tag-Security][TAG-SEC] is maintaining this great work. A new version of the whitepaper is in RFC now & the previously mentioned [CNCF Security Map][cncf-map] continues to collect open source tooling options. A space I'll watch closely and hopefully get more involved in.
 
 
-[CSMM]: {{ BASE_PATH }}/assets/article_images/2022-02-09-container-maturity/Container-Security-Maturity-Model-feb2022.ods
+[CSMM]: https://docs.google.com/spreadsheets/d/1WXcBGgYKEi7xTR0CqJ1RBluWNNPJqNj3O90Gu8swALQ/edit?usp=sharing
 [CMM]: https://en.wikipedia.org/wiki/Capability_Maturity_Model
 [BSIMM]: https://www.bsimm.com/
 [TAG-SEC]: https://github.com/cncf/tag-security
