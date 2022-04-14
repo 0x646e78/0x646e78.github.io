@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Please don't teach your customers to trust random numbers"
+title:  "Please don't teach your customers to trust unknown numbers"
 date:   2022-04-14 12:00:00 +1000
 categories: security privacy
 ---
@@ -19,8 +19,9 @@ Which I did, and sure enough it was actually the company who had called me. I as
 
 They apparently use __a system of cycling mobile numbers for outbound calls, and there’s apparently no process in place of how to help customers verify the caller, and nothing on the website about this practice.__ There's also little information for their callcenter on what to say to customers asking about it as he was grasping at straws somewhat trying to answer my questions - _"It is secure because they ask people security verification questions when they call them."_ - which is the problem here!
 
-That’s kinda nuts… right? Teaching your customers to trust cold-calls from random numbers, asking for your policy details and your security verification answers?
 
+There has been a growing awareness of vishing, and many organisations are trying to educate people to this threat. If you're recieving a call from an unverified caller, don't trust it. _Teaching your customers to trust cold-calls from random numbers, asking for your policy details and your security verification answers is poor practice_.
+ 
 I feel like a much better approach would involve:
  - Calls come from a number listed on the website.
  - Leave a voicemail, advising to call a listed number for the company.
@@ -29,7 +30,7 @@ I feel like a much better approach would involve:
  - I believe there's a method for companies to have their numbers show up as text, I'm not much of a telco expert but surely it's available if you're a huge organisation such as this.
 
 
-Has this happened to others? Is it more common than I imagine? Keen to hear in the comments about your experiences and other ideas of how companies could be making outbound calls in a much safer manner.
+Do you have a story like this? I'm keen to hear in the comments about your experiences and other ideas of how companies could be making outbound calls in a much safer manner.
 
 
 I've not embedded the company name in this post, I will likely disclose it in a week or after I have a response from the email I have sent them.... which isn't a security email, just the general info email as that's all they list on their site.
