@@ -32,7 +32,7 @@ I feel like a much better approach would involve:
 Has this happened to others? Is it more common than I imagine? Keen to hear in the comments about your experiences and other ideas of how companies could be making outbound calls in a much safer manner.
 
 
-I've not embedded the company name in this post, I will disclose it in a week or after I have a response from the email I have sent them.... which isn't a security email, just the general info email as that's all they list on their site.
+I've not embedded the company name in this post, I will likely disclose it in a week or after I have a response from the email I have sent them.... which isn't a security email, just the general info email as that's all they list on their site.
 
 
 [reverse]: https://www.reverseaustralia.com/
